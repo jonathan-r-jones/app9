@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\aa\\repositories\\app9\\App9\\App9.iOS\\App9.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\aa\\repositories\\app9\\App9\\App9.iOS\\App9.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\aa\\repositories\\app9\\App9\\App9.iOS\\App9.iOS.csproj",
+        "projectName": "App9.iOS",
+        "projectPath": "C:\\aa\\repositories\\app9\\App9\\App9.iOS\\App9.iOS.csproj",
+        "packagesPath": "C:\\Users\\Buzz\\.nuget\\packages\\",
+        "outputPath": "C:\\aa\\repositories\\app9\\App9\\App9.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Buzz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\aa\\repositories\\app9\\App9\\App9\\App9.csproj": {
+                "projectPath": "C:\\aa\\repositories\\app9\\App9\\App9\\App9.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\aa\\repositories\\app9\\App9\\App9\\App9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\aa\\repositories\\app9\\App9\\App9\\App9.csproj",
+        "projectName": "App9",
+        "projectPath": "C:\\aa\\repositories\\app9\\App9\\App9\\App9.csproj",
+        "packagesPath": "C:\\Users\\Buzz\\.nuget\\packages\\",
+        "outputPath": "C:\\aa\\repositories\\app9\\App9\\App9\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Buzz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
